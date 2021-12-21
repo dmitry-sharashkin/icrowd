@@ -1,0 +1,122 @@
+@import "vars";
+.projects{
+	padding: 80px 0;
+}
+.projects-heading{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 65px;
+}
+.projects-heading__article{
+	width: 68.8%;
+	h2{
+		font-size: 29px;
+		font-weight: 600;
+	}
+	p{
+		color: #8f8f8f;
+		font-size: 17px;
+		font-weight: 400;
+		margin-top: 26px;
+	}
+}
+.projects-heading__btn{
+	padding:18px 24px;
+	font-weight: 600;
+	font-size: 15px;
+	opacity: 0.7;
+	border:1px solid @black;
+	border-radius: 10px;
+	&:hover{
+		color: #fff;
+		background-color:@green;
+		opacity: 1;
+		box-shadow: 0 0 5px 1px fade(@black,50%);
+	}
+}
+.projects-list{
+	display: flex;
+	justify-content: space-between;
+}
+.projects-item{
+	height: inherit;
+	width: 30.6%;
+	border:1px solid fade(black,14%);
+	background-color:#f7f7f7;
+	border-radius:10px;
+	border-top:none;
+}
+.projects__img{
+	width: calc(100% + 3px);
+	position: relative;
+	left: -2px;
+	img{
+		width: 100%;
+		height: auto;
+	}
+}
+.projects-item__article{
+	padding:29px 22px 24px;
+	h3{
+		font-size: 17px;
+		font-weight: 700;
+		color: #484848;
+	} 
+	p{
+		font-size: 13px;
+		font-weight: 400;
+		color: #484848;
+		opacity: 0.79;
+		margin: 17px 0 20px;
+		line-height: 1.8;
+	}
+	
+}
+.projects-progress{
+	width: 100%;
+	height: 14px;
+	background-color:#e3e3e3;
+	content: '';
+	border-radius:6px;
+	margin-top: auto;
+	span{
+		content: '';
+		background-color:@green;
+		height: 14px;
+		z-index: 1;
+		display: block;
+		padding:0;
+		margin: 0;
+		border-radius:10px 0 0 10px;
+	}
+}
+.projects-item__date{
+	text-align: right;
+	font-size: 13px;
+	font-weight: 600;
+	color: #8d8d8d;
+}
+.projects-founded{
+	font-size: 13px;
+	font-weight: 600;
+	color: #8d8d8d;
+}
+.projects-item__info{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	margin: 17px 0;
+}
+.projects-item__footer{
+	text-align: right;
+	border-top: 1px solid fade(black,14%);
+	line-height: 1;
+	padding-top:24px;
+	span{
+		margin-left: 10px;
+		position:relative;
+		top: 2px;
+	}
+
+}

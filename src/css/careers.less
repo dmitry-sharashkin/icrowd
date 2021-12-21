@@ -1,0 +1,73 @@
+@import "vars";
+.careers_bg{
+	background: url(../../img/bg.png) no-repeat;
+	padding-bottom: 60px;
+
+}
+.careers{
+	padding-top:100px;
+}
+.careers-heading{
+	text-align: center;
+	h2{
+		font-size: 39px;
+		color: @green-head;
+		font-weight: 600;
+		margin-bottom: 42px;
+	}
+	p{
+		font-size: 19px;
+		font-weight: 400;
+		color: #949494;
+		margin-bottom: 100px;
+	}
+}
+.careers-reviews{
+	display: flex;
+	justify-content: space-between;
+}
+.review__wrap{
+	max-width: 398px;
+}
+.careers-reviews__item{
+	text-align: center;
+	background-color:#fff;
+	border-radius: 10px;
+	padding:25px 36px;
+	position:relative;
+	h4{
+		font-size: 21px;
+		font-weight: 600;
+		color: @green-head;
+		margin-bottom: 22px;
+	}
+	p{
+		color: #848484;
+		font-size: 13px;
+
+	}
+	&:after{
+		content: '';
+		display: block;
+		position:absolute;
+		bottom:-22px;
+		left: 80px;
+		border-top: 22px solid #fff;
+		border-right: 22px solid fade(#fff,0%);
+
+	}
+}
+.review__user{
+	display: flex;
+	align-items: center;
+	margin-top: 32px;
+	color: #494949;
+	font-family: Montserrat;
+	font-size: 15px;
+	font-weight: 600;
+
+}
+.review__img{
+	margin-right: 18px;
+	margin-left: 50px;
+}

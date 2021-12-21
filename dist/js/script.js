@@ -1,0 +1,1 @@
+document.querySelector(".burger__menu").onclick=function(){document.querySelector(".header-nav").classList.toggle("toggle-nav")};

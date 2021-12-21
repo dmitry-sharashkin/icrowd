@@ -1,0 +1,35 @@
+@import "vars";
+.header{
+	display: flex;
+	justify-content: space-between;
+	padding: 21px 140px;
+	align-items: flex-end;
+
+}
+.header-nav{
+	padding-bottom: 3px;
+	a{
+		color: @grey;
+		font-size: 13px;
+		font-weight: 600;
+		line-height: 1;
+		text-transform: uppercase;
+		margin-right: 28px;
+		transition: 0.3s;
+		&:hover{
+			color: @green;
+		}
+	}
+}
+.burger__menu{
+	display: none;
+	span{
+		content: '';
+		display: block;
+		width: 24px;
+		height: 3px;
+		background-color: @black;
+		margin-bottom: 6px;
+
+	}
+}
